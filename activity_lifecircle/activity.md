@@ -91,6 +91,7 @@ onContentChanged()是Activity中的一个回调方法 当Activity的布局改动
 onPostCreate、onPostResume
 
 onPostCreate方法是指onCreate方法彻底执行完毕的回调，onPostResume类似，这两个方法官方说法是一般不会重写，现在知道的做法也就只有在使用ActionBarDrawerToggle的使用在onPostCreate需要在屏幕旋转时候等同步下状态，Google官方提供的一些实例就是如下做法：
+```java
 @Override
 protected void onPostCreate(Bundle savedInstanceState) {
     super.onPostCreate(savedInstanceState);
@@ -98,5 +99,5 @@ protected void onPostCreate(Bundle savedInstanceState) {
     // Sync the toggle state after onRestoreInstanceState has occurred.
     mDrawerToggle.syncState();
 }
-...
+```
 
