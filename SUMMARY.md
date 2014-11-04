@@ -1,9 +1,10 @@
 # Summary
 
 * [Introduction](README.md)
-* [生命周期](README.md)
-   * [Activity 生命周期一](activity.md)
-   * [Activity生命周期二](activity)
+* [Starting](README.md)
+* [Activity_LifeCircle](activity_lifecircle/README.md)
+   * [Activity生命周期一](activity_lifecircle/activity.md)
+   * [Activity生命周期二](activity_lifecircle/activity2.md)
 * [Adapter](adapter/README.md)
 * [XML](xml/README.md)
 
