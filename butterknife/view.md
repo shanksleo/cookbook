@@ -28,6 +28,7 @@ class ExampleActivity extends Activity {
   @Override public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.simple_activity);
+    //ButterKnife.inject(this);可以用来标记对应的layout
     ButterKnife.inject(this);
     // TODO Use "injected" views...
   }
