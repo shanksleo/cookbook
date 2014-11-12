@@ -10,7 +10,7 @@ onCreate –> onStart –> onResume –> onPause –> onStop –> onDestroy
 相信很多人也都已经知道以上方法与执行顺序，但是Activity还有其他方法，如onContentChanged， onPostCreate， onPostResume， onConfigurationChanged， onSaveInstanceState， onRestoreInstanceState，没有什么比自己做个Demo亲自试验研究下更有说服力了，下面我做了一个Demo来彻底研究下这些生命周期的方法，建议大家也亲自试验下：
 ```java
 public class DemoActivity extends Activity {
-
+    //DemoActivity.class 获取DemoActivity的实例，getSimpleName（）是class 的方法
     static final String TAG = DemoActivity.class.getSimpleName();
 
     @Override
