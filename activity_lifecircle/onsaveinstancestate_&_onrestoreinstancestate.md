@@ -2,8 +2,7 @@
 
 前面两节主要详细讲解了Activity的生命周期方法以及一些特定的场景，其中涉及到*onSaveInstanceState和onRestoreInstanceState*这两个方法没有讲解，这篇博客就来分析下这两个方法的作用。
 
-onSaveInstanceState
-onSaveInstanceState字面理解就是保存实例的状态，当某个activity变得“容易”被系统销毁时，该activity的onSaveInstanceState就会被执行，除非该activity是被用户主动销毁的，例如当用户按BACK键的时候。
+onSaveInstanceState onSaveInstanceState字面理解就是保存实例的状态，当某个activity变得“容易”被系统销毁时，该activity onSaveInstanceState就会被执行，除非该activity是被用户主动销毁的，例如当用户按BACK键的时候。
 
 注意上面的双引号，何为“容易”？言下之意就是该activity还没有被销毁，而仅仅是一种可能性。这种可能性有这么几种情况：
 

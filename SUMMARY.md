@@ -9,6 +9,7 @@
 * [Adapter](adapter/README.md)
    * [json解析](adapter/json.md)
    * [SimpleBaseAdapter](adapter/simplebaseadapter.md)
+   * [listview中checkbox的多选与记录](adapter/listviewcheckbox.md)
 * [XML](xml/README.md)
 * [ButterKnife](butterknife/README.md)
    * [view依赖注入](butterknife/view.md)
