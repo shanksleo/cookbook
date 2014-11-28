@@ -11,9 +11,12 @@
    * [SimpleBaseAdapter](adapter/simplebaseadapter.md)
    * [listview中checkbox的多选与记录](adapter/listviewcheckbox.md)
 * [XML](xml/README.md)
+<<<<<<< HEAD
 * [系统线程，Context，Logutil](butterknife/contextlogutil.md)
    * [UI线程（主线程）和 weaker 线程](butterknife/ui_weaker.md)
    * [什么是Handler，handler使用场景](butterknife/handlerhandler.md)
+=======
+>>>>>>> 5c2b6e5e1f2b7b77ba4ce37a3af6a03858b9280f
 * [ButterKnife](butterknife/README.md)
    * [view依赖注入](butterknife/view.md)
 * [git](git/README.md)

@@ -189,6 +189,10 @@ TextView lastName = Views.findById(view, R.id.last_name);
 ImageView photo = Views.findById(view, R.id.photo);
 ```
 
+<<<<<<< HEAD
 最后，如果你是用Android Studio来作为IDE的话，那么有一个ButterKnife的插件android-butterknife-zelezny, 注意，需要选中layout.xml右键，例如选中 R.layout.setting 右键
 该插件可以让你手动生成上述注入代码，从此让自己成为一个更懒惰的程序员，上张截图吧。
+=======
+最后，如果你是用Android Studio来作为IDE的话，那么有一个ButterKnife的插件android-butterknife-zelezny, 该插件可以让你手动生成上述注入代码，从此让自己成为一个更懒惰的程序员，上张截图吧。
+>>>>>>> 5c2b6e5e1f2b7b77ba4ce37a3af6a03858b9280f
 ![](http://shanks.qiniudn.com/shanks_zelezny_animated.gif)
