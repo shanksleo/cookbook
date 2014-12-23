@@ -21,4 +21,7 @@
 * [git](git/README.md)
    * [Git远程操作详解](git/git.md)
    * [SourceTree使用指南](git/sourcetree.md)
+* [Gradle](gradle/README.md)
+   * [gradle使用详解](gradle/gradle.md)
+   
 
